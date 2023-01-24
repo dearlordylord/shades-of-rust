@@ -1,0 +1,10 @@
+[package]
+name = "shades-sycamore"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sycamore = { rev = "9c5c12ecb00650d1539ef730c14ce9e98ade1e61", features = ["suspense"], git = "https://github.com/sycamore-rs/sycamore" }
+gloo-timers = { version = "0.2.4", features = ["futures"] }

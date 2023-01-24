@@ -1,0 +1,10 @@
+[package]
+name = "shades-relm4"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# current release 0.4.4 isn't synched with examples neither with tutorial
+[dependencies]
+relm4 = {git="https://github.com/Relm4/Relm4", rev="4c708219cb39373891125758c98172881d492689"}

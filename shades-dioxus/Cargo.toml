@@ -1,0 +1,17 @@
+[package]
+name = "shades-dioxus"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = "0.3.1"
+dioxus-web = "0.3.0"
+gloo-timers = "0.2.6"
+wasm-bindgen = "0.2.83"
+wasm-timer = "0.2.5"
+
+# kekes: https://github.com/rustwasm/wasm-bindgen/issues/2215
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+parking_lot_core = "=0.8.0"
