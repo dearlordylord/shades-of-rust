@@ -1,0 +1,91 @@
+[package]
+name = "rust_roguelike_tutorial"
+version = "0.1.0"
+authors = ["Herbert Wolverson <herberticus@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rltk = { version = "0.8.0" }
+specs = "0.17"
+specs-derive = "0.4.1"
+
+[workspace]
+members = [ 
+    "chapter-01-hellorust", 
+    "chapter-02-helloecs", 
+    "chapter-03-walkmap", 
+    "chapter-04-newmap",
+    "chapter-05-fov",
+    "chapter-06-monsters",
+    "chapter-07-damage",
+    "chapter-08-ui",
+    "chapter-09-items",
+    "chapter-10-ranged",
+    "chapter-11-loadsave",
+    "chapter-12-delvingdeeper",
+    "chapter-13-difficulty",
+    "chapter-14-gear",
+    "chapter-16-nicewalls",
+    "chapter-17-blood",
+    "chapter-18-particles",
+    "chapter-19-food",
+    "chapter-20-magicmapping",
+    "chapter-21-rexmenu",
+    "chapter-22-simpletraps",
+    "chapter-23-generic-map",
+    "chapter-24-map-testing",
+    "chapter-25-bsproom-dungeons",
+    "chapter-26-bsp-interiors",
+    "chapter-27-cellular-automata",
+    "chapter-28-drunkards-walk",
+    "chapter-29-mazes",
+    "chapter-30-dla",
+    "chapter-31-symmetry",
+    "chapter-32-voronoi",
+    "chapter-33-wfc",
+    "chapter-34-vaults",
+    "chapter-35-vaults2",
+    "chapter-36-layers",
+    "chapter-37-layers2",
+    "chapter-38-rooms",
+    "chapter-39-halls",
+    "chapter-40-doors",
+    "chapter-41-camera",
+    "chapter-45-raws1",
+    "chapter-46-raws2",
+    "chapter-47-town1",
+    "chapter-48-town2",
+    "chapter-49-town3",
+    "chapter-50-stats",
+    "chapter-51-gear",
+    "chapter-52-ui",
+    "chapter-53-woods",
+    "chapter-54-xp",
+    "chapter-55-backtrack",
+    "chapter-56-caverns",
+    "chapter-57-ai",
+    "chapter-57a-spatial",
+    "chapter-58-itemstats",
+    "chapter-59-caverns2",
+    "chapter-60-caverns3",
+    "chapter-61-townportal",
+    "chapter-62-magicitems",
+    "chapter-63-effects",
+    "chapter-64-curses",
+    "chapter-65-items",
+    "chapter-66-spells",
+    "chapter-67-dragon",
+    "chapter-68-mushrooms",
+    "chapter-69-mushrooms2",
+    "chapter-70-missiles",
+    "chapter-71-logging",
+    "chapter-72-textlayers",
+    "chapter-73-systems",
+    "chapter-74-darkcity",
+    "chapter-75-darkplaza",
+    ]
+
+[profile.dev]
+opt-level = 1

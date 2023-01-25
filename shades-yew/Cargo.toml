@@ -1,0 +1,18 @@
+[package]
+name = "game_of_life"
+version = "0.1.4"
+authors = [
+    "Diego Cardoso <dige0card0s0@hotmail.com>",
+    "Ilya Bogdanov <fumlead@gmail.com",
+    "Junjie Huang <huangjj.27@qq.com>"
+]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+getrandom = { version = "0.2", features = ["js"] }
+log = "0.4"
+rand = "0.8"
+wasm-logger = "0.2"
+yew = { git = "https://github.com/yewstack/yew", rev = "e65ee6059989d065004f951728cc0702f68716bb", features = ["csr"] }
+gloo = "0.8"
