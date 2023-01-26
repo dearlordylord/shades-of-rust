@@ -35,9 +35,9 @@ fn App(cx: Scope) -> Element {
     cx.spawn({
         let mut angle = angle.to_owned();
         async move {
-            log("Hello from Rust?");
+            // log("Hello from Rust?");
             TimeoutFuture::new(50).await;
-            log("Hello from Rust!");
+            // log("Hello from Rust!");
             angle.with_mut(|a| {
                 *a += 1;
                 *a = *a % 360;
