@@ -1,0 +1,11 @@
+[package]
+name = "shades-vizia"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.23"
+# runnable state month ago
+vizia = {rev = "e63b5e5c4bcdd24a7cea47fa27b9c2299cda0d5f", git = "https://github.com/vizia/vizia"}

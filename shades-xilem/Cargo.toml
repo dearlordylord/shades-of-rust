@@ -1,0 +1,9 @@
+[package]
+name = "shades-xilem"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+xilem = { git = "https://github.com/linebender/xilem", rev ="37cb085dc294bb2f5535ccf455a40cafc8772365" }
