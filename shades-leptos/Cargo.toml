@@ -1,0 +1,17 @@
+[package]
+name = "shades_leptos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos = { rev = "8a1adaefafd35cdde5ed64f4584a69fbb5f6c908", git = "https://github.com/leptos-rs/leptos" }
+console_log = "0.2"
+log = "0.4"
+serde = { version = "1", features = ["derive"] }
+futures = "0.3"
+console_error_panic_hook = "0.1.7"
+leptos_meta = { rev = "8a1adaefafd35cdde5ed64f4584a69fbb5f6c908", git = "https://github.com/leptos-rs/leptos", package = "leptos_meta", features = ["csr"] }
+leptos_router = { rev = "8a1adaefafd35cdde5ed64f4584a69fbb5f6c908", git = "https://github.com/leptos-rs/leptos", package = "leptos_router", features = ["csr"] }
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.0"
