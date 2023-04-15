@@ -96,11 +96,7 @@ impl eframe::App for TemplateApp {
             // The central panel the region left after adding TopPanel's and SidePanel's
 
             ui.heading("Shades of Rust - egui");
-            ui.hyperlink("https://github.com/emilk/shades_egui");
-            ui.add(egui::github_link_file!(
-                "https://github.com/emilk/shades_egui/blob/master/",
-                "Source code."
-            ));
+            ui.hyperlink("https://github.com/Firfi/shades-of-rust/tree/master/shades-egui");
             egui::warn_if_debug_build(ui);
         });
     }
