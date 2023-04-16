@@ -1,0 +1,11 @@
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/sycamore_web-9b374c37141e1c8a.rmeta: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/dom_node.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/hydrate.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/hydrate_node.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/ssr_node.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/libsycamore_web-9b374c37141e1c8a.rlib: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/dom_node.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/hydrate.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/hydrate_node.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/ssr_node.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/sycamore_web-9b374c37141e1c8a.d: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/dom_node.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/hydrate.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/hydrate_node.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/ssr_node.rs
+
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/lib.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/dom_node.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/hydrate.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/hydrate_node.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-web-0.8.2/src/ssr_node.rs:

@@ -1,0 +1,1 @@
+{"rustc":12391890890286306120,"features":"[]","target":13988420919824902104,"profile":17504242664759948721,"path":1579811960164812297,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/convert_case-948f9affc9565968/dep-lib-convert_case"}}],"rustflags":["--cfg=engine"],"metadata":8130279976740482636,"config":2202906307356721367,"compile_kind":0}

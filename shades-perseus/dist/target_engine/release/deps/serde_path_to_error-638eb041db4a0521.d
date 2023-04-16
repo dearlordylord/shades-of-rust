@@ -1,0 +1,11 @@
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/serde_path_to_error-638eb041db4a0521.rmeta: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/de.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/path.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/ser.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/wrap.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/libserde_path_to_error-638eb041db4a0521.rlib: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/de.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/path.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/ser.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/wrap.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/serde_path_to_error-638eb041db4a0521.d: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/de.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/path.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/ser.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/wrap.rs
+
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/lib.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/de.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/path.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/ser.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_path_to_error-0.1.11/src/wrap.rs:

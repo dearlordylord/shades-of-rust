@@ -1,0 +1,12 @@
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/getrandom-21ac2555e2b70df5.rmeta: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util_libc.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/use_file.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/macos.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/libgetrandom-21ac2555e2b70df5.rlib: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util_libc.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/use_file.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/macos.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/getrandom-21ac2555e2b70df5.d: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util_libc.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/use_file.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/macos.rs
+
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/lib.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/error.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/util_libc.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/use_file.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.9/src/macos.rs:

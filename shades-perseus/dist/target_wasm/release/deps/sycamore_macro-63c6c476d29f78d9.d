@@ -1,0 +1,11 @@
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_wasm/release/deps/libsycamore_macro-63c6c476d29f78d9.dylib: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/component/mod.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/prop.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/mod.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/codegen.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/ir.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/parse.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_wasm/release/deps/sycamore_macro-63c6c476d29f78d9.d: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/component/mod.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/prop.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/mod.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/codegen.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/ir.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/parse.rs
+
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/lib.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/component/mod.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/prop.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/mod.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/codegen.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/ir.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/sycamore-macro-0.8.2/src/view/parse.rs:

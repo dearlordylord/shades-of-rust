@@ -1,0 +1,12 @@
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/slotmap-976e72196a966963.rmeta: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/basic.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/dense.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/hop.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/secondary.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/sparse_secondary.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/libslotmap-976e72196a966963.rlib: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/basic.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/dense.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/hop.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/secondary.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/sparse_secondary.rs
+
+/Users/firfi/work/rust/shades/shades-perseus/dist/target_engine/release/deps/slotmap-976e72196a966963.d: /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/lib.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/basic.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/dense.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/hop.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/secondary.rs /Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/sparse_secondary.rs
+
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/lib.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/basic.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/dense.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/hop.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/secondary.rs:
+/Users/firfi/.cargo/registry/src/github.com-1ecc6299db9ec823/slotmap-1.0.6/src/sparse_secondary.rs:
