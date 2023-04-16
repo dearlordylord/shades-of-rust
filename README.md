@@ -3,17 +3,17 @@ License: GPL (infected by slint example, TODO rewrite it)
 dokku deploy
 
 ```
-cd shades-sauron
+cd shades-perseus
 touch .static
 git add .static
 git commit -m "Add .static"
 cd ..
-git remote add dokku-sauron dokku@apps.loskutoff.com:shades-sauron
-git subtree push --prefix shades-sauron dokku-sauron master
+git remote add dokku-perseus dokku@apps.loskutoff.com:shades-perseus
+git subtree push --prefix shades-perseus dokku-perseus master
 ssh root@apps.loskutoff.com
-dokku config:set shades-sauron NGINX_ROOT=dist NGINX_DEFAULT_REQUEST=index.html
-dokku letsencrypt:set shades-sauron email igor.loskutoff@gmail.com
-dokku letsencrypt:enable shades-sauron
+dokku config:set shades-perseus NGINX_ROOT=dist NGINX_DEFAULT_REQUEST=index.html
+dokku letsencrypt:set shades-perseus email igor.loskutoff@gmail.com
+dokku letsencrypt:enable shades-perseus
 ```
 
 deploy specifics:
