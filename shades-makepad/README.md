@@ -6,3 +6,16 @@ We won't be getting into it, so no sound for the example
 
 
 https://github.com/dokku/dokku/blob/master/plugins/nginx-vhosts/templates/nginx.conf.sigil overwritten
+
+```js
+static async fetch_and_instantiate_wasm(wasm_url, memory) {
+    const result = await fetch(wasm_url);
+    return WebAssembly.compile(await result.arrayBuffer())
+        .then(
+        (module) => this.instantiate_wasm(module, memory, {_post_signal: _ => {}}),
+        error => {
+            console.error(error)
+        }
+    )
+}
+```

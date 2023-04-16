@@ -188,8 +188,9 @@ export class WasmBridge {
         })
     }
     
-    static fetch_and_instantiate_wasm(wasm_url, memory) {
-        return WebAssembly.compileStreaming(fetch(wasm_url))
+    static async fetch_and_instantiate_wasm(wasm_url, memory) {
+        const result = await fetch(wasm_url);
+        return WebAssembly.compile(await result.arrayBuffer())
             .then(
             (module) => this.instantiate_wasm(module, memory, {_post_signal: _ => {}}),
             error => {
