@@ -1,3 +1,5 @@
+License: GPL (infected by slint example, TODO rewrite it)
+
 dokku deploy
 
 ```
