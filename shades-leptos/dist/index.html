@@ -1,0 +1,45 @@
+<!DOCTYPE html><html><head>
+    <script type="module">import init from './shades_leptos-fd42f88b52bb42e7.js';init('./shades_leptos-fd42f88b52bb42e7_bg.wasm');</script>
+    <style>
+        a[aria-current] {
+            font-weight: bold;
+        }
+
+        .contact, .contact-list {
+            border: 1px solid #c0c0c0;
+            border-radius: 3px;
+            padding: 1rem;
+        }
+    </style>
+
+<link rel="preload" href="./shades_leptos-fd42f88b52bb42e7_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="./shades_leptos-fd42f88b52bb42e7.js"></head>
+<body>
+<script>(function () {
+    var protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    var url = protocol + '//' + window.location.host + '/_trunk/ws';
+    var poll_interval = 5000;
+    var reload_upon_connect = () => {
+        window.setTimeout(
+            () => {
+                // when we successfully reconnect, we'll force a
+                // reload (since we presumably lost connection to
+                // trunk due to it being killed, so it will have
+                // rebuilt on restart)
+                var ws = new WebSocket(url);
+                ws.onopen = () => window.location.reload();
+                ws.onclose = reload_upon_connect;
+            },
+            poll_interval);
+    };
+
+    var ws = new WebSocket(url);
+    ws.onmessage = (ev) => {
+        const msg = JSON.parse(ev.data);
+        if (msg.reload) {
+            window.location.reload();
+        }
+    };
+    ws.onclose = reload_upon_connect;
+})()
+</script></body></html>
