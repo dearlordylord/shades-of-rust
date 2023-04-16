@@ -7,6 +7,8 @@ We won't be getting into it, so no sound for the example
 
 https://github.com/dokku/dokku/blob/master/plugins/nginx-vhosts/templates/nginx.conf.sigil overwritten
 
+- it probably should work and add headers but it doesn't work and doesn't add headers
+
 ```js
 static async fetch_and_instantiate_wasm(wasm_url, memory) {
     const result = await fetch(wasm_url);
