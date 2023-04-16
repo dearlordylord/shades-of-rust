@@ -1,9 +1,13 @@
 
-let wasm;
 
-const heap = new Array(32).fill(undefined);
+let wasm_bindgen;
+(function() {
+    const __exports = {};
+    let wasm;
 
-heap.push(undefined, null, true, false);
+    const heap = new Array(32).fill(undefined);
+
+    heap.push(undefined, null, true, false);
 
 function getObject(idx) { return heap[idx]; }
 
@@ -848,7 +852,13 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('chapter-75-darkplaza-b2d1af7892e95a9c_bg.wasm', import.meta.url);
+        let src;
+        if (typeof document === 'undefined') {
+            src = location.href;
+        } else {
+            src = document.currentScript.src;
+        }
+        input = src.replace(/\.js$/, '_bg.wasm');
     }
     const imports = getImports();
 
@@ -863,5 +873,6 @@ async function init(input) {
     return finalizeInit(instance, module);
 }
 
-export { initSync }
-export default init;
+wasm_bindgen = Object.assign(init, { initSync }, __exports);
+
+})();
