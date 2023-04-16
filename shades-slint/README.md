@@ -1,4 +1,1 @@
-No trunk! 
-
-`wasm-pack build --release --target web`
-`python3 -m http.server`
+https://github.com/slint-ui/slint/blob/master/docs/tutorial/rust/src/main_game_logic_in_rust.rs

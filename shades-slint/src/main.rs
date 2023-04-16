@@ -1,10 +1,11 @@
+// Copyright © SixtyFPS GmbH <info@slint-ui.com>
+// SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-Slint-commercial
 
-#[cfg_attr(target_arch = "wasm32",
-wasm_bindgen::prelude::wasm_bindgen(start))]
-pub fn main() {
+#[allow(dead_code)]
+fn main() {
     use slint::Model;
 
-    let main_window = MainWindow::new();
+    let main_window = MainWindow::new().unwrap();
 
     // Fetch the tiles from the model
     let mut tiles: Vec<TileData> = main_window.get_memory_tiles().iter().collect();
@@ -16,6 +17,7 @@ pub fn main() {
     let mut rng = rand::thread_rng();
     tiles.shuffle(&mut rng);
 
+    // ANCHOR: game_logic
     // Assign the shuffled Vec to the model property
     let tiles_model = std::rc::Rc::new(slint::VecModel::from(tiles));
     main_window.set_memory_tiles(tiles_model.clone().into());
@@ -49,20 +51,22 @@ pub fn main() {
         }
     });
 
-    main_window.run();
+    main_window.run().unwrap();
+    // ANCHOR_END: game_logic
 }
 
 slint::slint! {
-    struct TileData := {
+    struct TileData {
         image: image,
         image_visible: bool,
         solved: bool,
     }
-    MemoryTile := Rectangle {
+
+    component MemoryTile inherits Rectangle {
         callback clicked;
-        property <bool> open_curtain;
-        property <bool> solved;
-        property <image> icon;
+        in property <bool> open_curtain;
+        in property <bool> solved;
+        in property <image> icon;
 
         height: 64px;
         width: 64px;
@@ -100,23 +104,26 @@ slint::slint! {
             }
         }
     }
-    MainWindow := Window {
+    // ANCHOR: mainwindow_interface
+    export component MainWindow inherits Window {
         width: 326px;
         height: 326px;
 
-        callback check_if_pair_solved();
-        property <bool> disable_tiles;
+        callback check_if_pair_solved(); // Added
+        in property <bool> disable_tiles; // Added
 
-        property <[TileData]> memory_tiles: [
-            { image: @image-url("icons/at.png") },
-            { image: @image-url("icons/balance-scale.png") },
-            { image: @image-url("icons/bicycle.png") },
-            { image: @image-url("icons/bus.png") },
-            { image: @image-url("icons/cloud.png") },
-            { image: @image-url("icons/cogs.png") },
-            { image: @image-url("icons/motorcycle.png") },
-            { image: @image-url("icons/video.png") },
+        in-out property <[TileData]> memory_tiles: [
+           { image: @image-url("icons/at.png") },
+    // ANCHOR_END: mainwindow_interface
+           { image: @image-url("icons/balance-scale.png") },
+           { image: @image-url("icons/bicycle.png") },
+           { image: @image-url("icons/bus.png") },
+           { image: @image-url("icons/cloud.png") },
+           { image: @image-url("icons/cogs.png") },
+           { image: @image-url("icons/motorcycle.png") },
+           { image: @image-url("icons/video.png") },
         ];
+        // ANCHOR: tile_click_logic
         for tile[i] in memory_tiles : MemoryTile {
             x: mod(i, 4) * 74px;
             y: floor(i / 4) * 74px;
@@ -127,11 +134,14 @@ slint::slint! {
             // propagate the solved status from the model to the tile
             solved: tile.solved;
             clicked => {
+                // old: tile.image_visible = !tile.image_visible;
+                // new:
                 if (!root.disable_tiles) {
                     tile.image_visible = !tile.image_visible;
                     root.check_if_pair_solved();
                 }
             }
         }
+        // ANCHOR_END: tile_click_logic
     }
 }
