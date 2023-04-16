@@ -1,0 +1,9 @@
+[package]
+name = "backend"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+moon.workspace = true
+
