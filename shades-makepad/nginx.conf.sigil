@@ -4,6 +4,7 @@
 {{ $listen_port := index $port_map_list 1 }}
 {{ $upstream_port := index $port_map_list 2 }}
 
+include mime.types;
 types {
     application/wasm wasm;
 }
