@@ -1,0 +1,12 @@
+{
+  "name": "shades-sauron",
+  "version": "0.1.0",
+  "files": [
+    "shades_sauron_bg.wasm",
+    "shades_sauron.js",
+    "shades_sauron.d.ts"
+  ],
+  "module": "shades_sauron.js",
+  "types": "shades_sauron.d.ts",
+  "sideEffects": false
+}
