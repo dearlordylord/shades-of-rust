@@ -1,0 +1,15 @@
+{
+  "name": "shades-slint",
+  "collaborators": [
+    "Igor Loskutov <igor.loskutoff@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "shades_slint_bg.wasm",
+    "shades_slint.js",
+    "shades_slint.d.ts"
+  ],
+  "module": "shades_slint.js",
+  "types": "shades_slint.d.ts",
+  "sideEffects": false
+}
