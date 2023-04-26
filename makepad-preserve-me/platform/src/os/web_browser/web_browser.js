@@ -898,7 +898,8 @@ export class WasmWebBrowser extends WasmBridge {
         };
         ta.addEventListener('keyup', e => this.handlers.on_keyup(e));
         document.body.appendChild(ta);
-        ta.focus();
+        // we don't want it to get focus right in the article
+        // ta.focus();
     }
     
     

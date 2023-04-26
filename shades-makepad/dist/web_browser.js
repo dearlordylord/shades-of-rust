@@ -898,7 +898,7 @@ export class WasmWebBrowser extends WasmBridge {
         };
         ta.addEventListener('keyup', e => this.handlers.on_keyup(e));
         document.body.appendChild(ta);
-        ta.focus();
+        // ta.focus(); // don't.
     }
     
     
@@ -916,7 +916,7 @@ export class WasmWebBrowser extends WasmBridge {
     
     focus_keyboard_input() {
         if (!this.text_area)return;
-        this.text_area.focus();
+        // this.text_area.focus(); // don't.
     }
 }
 
