@@ -81,6 +81,7 @@ slint::slint! {
 
         // Left curtain
         Rectangle {
+            x: 0px;
             background: #193076;
             width: open_curtain ? 0px : (parent.width / 2);
             height: parent.height;
