@@ -1,4 +1,6 @@
-License: GPL (infected by slint example, TODO rewrite it)
+License: GPL (infected by slint)
+
+supplementary for monadical.com/posts/shades-of-rust-gui-library-list.html
 
 dokku deploy
 
