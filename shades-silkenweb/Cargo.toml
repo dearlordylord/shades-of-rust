@@ -1,0 +1,11 @@
+[package]
+name = "shades-silkenweb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+silkenweb = { git="https://github.com/silkenweb/silkenweb", rev="07bb8cd2c6ede1a7f5d67472c326e0d502e992cc" }
+futures-signals = "0.3.31"
+wasm-bindgen = "0.2.84"
