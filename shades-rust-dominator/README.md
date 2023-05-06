@@ -1,3 +1,7 @@
+own build with npm script;
+
+.buildpacks needed for dokku otherwise it detects nodejs
+
 ## How to install
 
 ```sh
